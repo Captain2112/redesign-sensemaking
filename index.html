@@ -13,12 +13,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <!-- ----------- -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-    <link rel="icon" type="image/x-icon" href="pic/favicon.png">
+    <link rel="icon" type="image/x-icon" href="pic/logo-nav.png">
     <title>Unlocking Digital Potential</title>
 </head>
 <body>
+        <div class="nav-bar">
+            <div class="nav-ctn">
+                <div class="nav-logo">
+                    <img src="pic/logo-nav.png" alt="">
+                </div>
+                <div class="nav-topic">
+                    <a href="#section1">Our   Services</a>
+                    <a href="#section2">Our   Process</a>
+                    <a href="#section3">Veri-ed</a>
+                    <a href="#section4">Contact   us</a>
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <a href="#section1">Our   Services</a>
+                    <a href="#section2">Our   Process</a>
+                    <a href="#section3">Veri-ed</a>
+                    <a href="#section4">Contact   us</a>
+                </ul>
+            </div>
+        </div>
         <header>
             <div class="container">
+                
                 <div class="header-box">
                     <div class="logo">
                         <img src="pic/sensemaking_logo.png" alt="logo">
@@ -47,10 +71,10 @@
                 
             </div>
         </header>
-        <div class="our-sevice">
+        <div class="our-sevice" >
             <div class="container">
                 <div class="our-sevice-box">
-                    <div class="service-topic">
+                    <div class="service-topic" id="section1">
                         <h1>Our Services</h1>
                     </div>
 
@@ -136,7 +160,7 @@
         </div> 
         <div class="our-process">
             <div class="container">
-                <div class="our-process-container">
+                <div class="our-process-container" id="section2">
                     <h1>Our process</h1>
 
                     <div class="process-containerbox">
@@ -181,7 +205,7 @@
         </div>
         <div class="veried">
             <div class="container">
-                <div class="veried-container">
+                <div class="veried-container" id="section3">
                     <h1>VERI-ED: Unleashing the Power of Verified Credentials</h1>
                     <p>Discover the game-changing capabilities of VERI-ED, where cutting-edge Blockchain technology and advanced cryptography come together to redefine the landscape of resume verification. Say goodbye to outdated methods and embrace a new era of security and authenticity.</p>
                     <div class="veried-box">
@@ -257,7 +281,7 @@
         </div>
         <footer>
             <div class="container">
-                <div class="footer-container">
+                <div class="footer-container" id="section4">
                     <h1>Contract Us</h1>
                     <div class="dd-bt">
                         <div class="dropdown">
